@@ -1,0 +1,117 @@
+@import url('https://fonts.googleapis.com/css2?family=Almendra:ital@1&family=Josefin+Sans&display=swap');
+
+body {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+}
+
+.picdiv {
+    background-image: url("background.jpg");
+    background-repeat: no-repeat;
+    background-size: 100% 100vh;
+    width: 45%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.logodiv {
+    width: 100%;
+    height: 10%;
+    background-color: rgba(0, 0, 0, 0.5);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 0.5rem;
+}
+
+.logo {
+    width: 10%;
+    height: 100%;
+    margin-bottom: 0.5rem;
+}
+
+h1 {
+    color: white;
+    font-family: 'Almendra', serif;
+    font-family: 'Josefin Sans', sans-serif;
+}
+
+.ctext {
+    margin-top: 70%;
+    color: white;
+}
+
+a {
+    color: white;
+}
+
+.rightdiv {
+    background-color: rgb(236, 236, 245);
+    padding: 1rem;
+    width: 55%;
+    height: 100vh;
+}
+
+.formdiv {
+    background-color: rgb(254, 255, 255);
+    padding: 1rem;
+    position: relative;
+    left: -1rem;
+    width: 105%;
+    margin-bottom: 1.5rem;
+}
+
+.divtext {
+    font-size: 1.3rem;
+    font-family: 'Almendra', serif;
+    font-family: 'Josefin Sans', sans-serif;
+}
+
+form {
+    display: flex;
+}
+
+.formleft, .formright {
+    display: flex;
+    flex-direction: column;
+}
+
+label {
+    font-size: 0.9rem;
+    font-family: 'Almendra', serif;
+    font-family: 'Josefin Sans', sans-serif;
+}
+
+input {
+    width: 80%;
+    margin-bottom: 1rem;
+    border: 1px solid #E5E7EB;
+}
+
+input:focus {
+    outline: none;
+    border: 2px solid #b9c9e9;
+}
+
+#matchresult {
+    color: red;
+    font-family: 'Almendra', serif;
+    font-family: 'Josefin Sans', sans-serif;
+}
+
+button {
+    padding: 0.5rem 1.8rem;
+    color: white;
+    background-color: rgb(20, 90, 20);
+    border-radius: 5px;
+    font-family: 'Almendra', serif;
+    font-family: 'Josefin Sans', sans-serif;
+}
+
+span {
+    color: rgb(20, 90, 20);
+}

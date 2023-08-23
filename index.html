@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>📄 Sign Up Form</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="script.js" defer></script>
+</head>
+
+<body>
+    <div class="picdiv">
+        <div class="logodiv">
+            <img class="logo" src="odin-logo.png" alt="The Odin Project Logo">
+            <h1>ODIN</h1>
+        </div>
+        <p class="ctext">Photo By <a href="https://unsplash.com/photos/25xggax4bSA">Halie West</a> on <a href="https://unsplash.com/">Unsplash</a></p>
+    </div>
+    <div class="rightdiv">
+        <h2>Online Form Example</h2>
+        <div class="formdiv">
+            <p class="divtext">Let's do This!</p>
+            <form>
+                <div class="formleft">
+                    <label for="first_name">First Name</label>
+                    <input type="text" id="first_name" name="first_name">
+                    
+                    <label for="email">Email</label>
+                    <input type="email" id="email" name="email">
+                    
+                    <label for="password">*Password</label>
+                    <input type="password" id="password" name="password" required>
+                </div>
+                <div class="formright">
+                    <label for="last_name">Last Name</label>
+                    <input type="text" id="last_name" name="last_name">
+                    
+                    <label for="phone_number">Phone Number</label>
+                    <input type="tel" id="phone_number" name="phone_number">
+                    
+                    <label for="confirmation">*Confirm Password</label>
+                    <input type="password" id="confirmation" name="confirmation" required>
+                </div>
+            </form>
+        </div>
+        <p id="matchresult"></p>
+        <button type="submit" onclick="checkPasswords()">
+            Create Account
+        </button>
+        <p class="login">Already have an account? <span>Log in</span></p>
+    </div>
+</body>
+
+</html>
